@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="ec.css">
+    <link rel="stylesheet" href="collections.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+
+        <h1>Ecommerce</h1>
+
+        <div class="links">
+            <p class="nav-bar-link"><a href="ecom.html">home</a></p>
+            <p class="nav-bar-link"><a href="collections.html">collectons</a></p>
+            <p class="nav-bar-link"><a href="contact.html">contact</a></p>
+        </div>
+        <div class="toogle" onclick="show()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <div class="side-nav-bar">
+        <div onclick="hide()">
+            <p style="text-align: right; margin-right: 10px; margin-top: 5px;">
+                <i class="fa-solid fa-xmark"></i>
+        </div>
+        </p>
+        <div class="side-links">
+            <p class="side-nav-bar-link"><a href="ecom.html">home</a></p>
+            <p class="side-nav-bar-link"><a href="collections.html">collectons</a></p>
+            <p class="side-nav-bar-link"><a href="contact.html">contact</a></p>
+        </div>
+    </div>
+
+    <h1 style="text-align: center;margin-top: 10px;">for contact:</h1>
+
+    <div class="ct-box">
+        <form>
+            <div>
+                <p>name: <input type="text"></p>
+
+            </div>
+            <div>
+                email: <input type="email">
+            </div>
+            <div style="display: flex; justify-content: center; ">
+                message: <textarea></textarea>
+            </div>
+            <div>
+                <input type="submit"><input type="reset">
+            </div>
+        </form>
+
+
+    </div>
+    <div class="abt-us">
+        <img src="abt.jpg" class="abt-us-img">
+        <div style=" text-align: center;">
+            <h2>15 years of legacy <i class="fa-brands fa-web-awesome"></i></h2>
+            <p>an e-commerce platform for exclusive offers in top brands and great deals!</p>
+            <p>excelled in craftman-ship and fashion technologies!<i class="fa-brands fa-font-awesome"></i></p>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>for contact <i class="fa-solid fa-circle-user"></i></h2>
+        <p><i class="fa-solid fa-phone"></i> 1234567890</p>
+        <p><i class="fa-solid fa-envelope"></i> ecommerce@gmail.com</p>
+        <p><i class="fa-brands fa-facebook"></i> ecom_offl_.</p>
+        <p>thank you for visiting our online store! <i class="fa-solid fa-link"></i></p>
+        <p>@ 2026 ecom.com</p>
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>

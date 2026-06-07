@@ -1,0 +1,36 @@
+.search-col{
+    border: solid black 3px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+
+}
+.search-col form{
+     display: flex;
+    justify-content: space-between;
+}
+.search-col input{
+    border: none;
+    width: 88vw;
+}
+.search-col input:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.col-samples{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: lavender;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.samples{
+    flex-basis: 22%;
+    margin: 15px;
+    text-align: center;
+}
